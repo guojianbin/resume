@@ -1,0 +1,71 @@
+body {
+	color: #222;
+	font-family:"Segoe UI","Times New Roman",Georgia,Serif;
+}
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-bottom: 20px;
+}
+#nav {
+	background: #000;
+	left: 0;
+	list-style: none;
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+	z-index: 999;
+}
+#nav li {
+	display: inline-block;
+}
+#nav a {
+	color: #fff;
+	display: block;
+	font-size: 15px;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#nav a:hover {
+	color: #dedede;
+}
+#nav .current a {
+	background: #fff;
+	color: #000;
+}
+.current {
+	background: red;
+}
+#container {
+	margin: 0 auto;
+	width: 800px;
+}
+.section {
+	border-bottom: 5px solid #ccc;
+	padding: 20px;
+}
+.section strong {
+	font-size:18px;
+    background-color: #ddd; 
+    border-bottom:solid 2px #ccc;
+}
+#section-1 {
+	padding-top: 50px;
+}
+.section p:last-child {
+	margin-bottom: 0;
+}
+#section-2 ul{
+        list-style-image:url(tick.png);
+        list-style-position:inside;
+    }
+#section-6 ul{
+        list-style-image:url(star.png);
+        list-style-position:inside;
+    }
